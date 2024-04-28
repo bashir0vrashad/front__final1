@@ -1,0 +1,11 @@
+@import "./components/header/header.scss";
+@import "./components/main/CursusInteger.scss";
+@import "./components/main/_Phasellus.scss";
+@import "./components/main/AdditionalInformation.scss";
+@import "./components/footer/footer.scss";
+@import "./components/main/_CardsSection.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

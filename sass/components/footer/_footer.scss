@@ -1,0 +1,33 @@
+.footer {
+  background-color: #feedbc;
+  padding: 40px 5px;
+  &__container1 {
+    width: 335px;
+  }
+  &__container1 h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.footer__container2 > p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+@media (min-width: 375px) {
+  .footer__container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer__container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

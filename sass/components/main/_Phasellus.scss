@@ -1,0 +1,80 @@
+.Phasellus {
+  background-color: rgba(249, 184, 0, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  &__worker-img1 {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  &__worker-img2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: none;
+  }
+  &__container {
+    width: 335px;
+  }
+  &__tittle {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  &__description {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  &__link {
+    display: block;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.Phasellus__btn {
+  width: 335px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(38, 38, 38, 1);
+  color: white;
+  padding: 17px 38px;
+  border: none;
+  border-radius: 36px;
+  margin-bottom: 30px;
+}
+
+#CursusInteger_id {
+  background-color: rgba(249, 184, 0, 1);
+}
+
+@media (min-width: 375px) {
+  .Phasellus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Phasellus__tittle {
+    font-size: 50px;
+  }
+  .Phasellus__worker-img1 {
+    display: none;
+  }
+  .Phasellus__worker-img2 {
+    display: block;
+    height: 600px;
+    width: 600px;
+  }
+  .Phasellus__container {
+    width: 45%;
+  }
+}
